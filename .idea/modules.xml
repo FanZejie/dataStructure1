@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dataStructure.iml" filepath="$PROJECT_DIR$/dataStructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/insert/insert.iml" filepath="$PROJECT_DIR$/insert/insert.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maopao/maopao.iml" filepath="$PROJECT_DIR$/maopao/maopao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/merge/merge.iml" filepath="$PROJECT_DIR$/merge/merge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quick/quick.iml" filepath="$PROJECT_DIR$/quick/quick.iml" />
+      <module fileurl="file://$PROJECT_DIR$/radix/radix.iml" filepath="$PROJECT_DIR$/radix/radix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/select/select.iml" filepath="$PROJECT_DIR$/select/select.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shell/shell.iml" filepath="$PROJECT_DIR$/shell/shell.iml" />
+    </modules>
+  </component>
+</project>
