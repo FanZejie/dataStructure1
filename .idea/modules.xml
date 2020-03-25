@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/dataStructure.iml" filepath="$PROJECT_DIR$/dataStructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dataStructureSort.iml" filepath="$PROJECT_DIR$/dataStructureSort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hashmapSort/hashmapSort.iml" filepath="$PROJECT_DIR$/hashmapSort/hashmapSort.iml" />
       <module fileurl="file://$PROJECT_DIR$/insert/insert.iml" filepath="$PROJECT_DIR$/insert/insert.iml" />
       <module fileurl="file://$PROJECT_DIR$/maopao/maopao.iml" filepath="$PROJECT_DIR$/maopao/maopao.iml" />
       <module fileurl="file://$PROJECT_DIR$/merge/merge.iml" filepath="$PROJECT_DIR$/merge/merge.iml" />
