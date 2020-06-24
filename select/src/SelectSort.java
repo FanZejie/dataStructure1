@@ -14,11 +14,11 @@ import java.util.Date;
  */
 public class SelectSort {
     public static void main(String[] args) {
-        //int arr[] = {3,9,-1,10,-3};
-        //System.out.println("排序前数组为："+ Arrays.toString(arr));
+        int arr[] = {3,9,-1,10,-3};
+        System.out.println("排序前数组为："+ Arrays.toString(arr));
         //testSort(arr);
-        //selectSort(arr);
-        testSortTime();
+        selectSort(arr);
+        //testSortTime();
     }
 
     public static void selectSort(int[] arr) {
@@ -35,7 +35,7 @@ public class SelectSort {
                 arr[minIndex] = arr[i];
                 arr[i] = min;
             }
-            //System.out.println("第"+(i+1)+"轮后："+ Arrays.toString(arr));
+            System.out.println("第"+(i+1)+"轮后："+ Arrays.toString(arr));
         }
     }
 

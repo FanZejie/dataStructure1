@@ -7,14 +7,14 @@ import java.util.Date;
  */
 public class MaoPaoSort {
     public static void main(String[] args) {
-        /*int arr[] = {3,9,-1,10,-3};
+        int arr[] = {3,9,-1,10,-3};
         System.out.println("排序前数组为："+ Arrays.toString(arr));
         int temp = 0;
         //testSort(arr);
         //sort(arr);
         betterSort(arr);
-        System.out.println("排序后数组为："+ Arrays.toString(arr));*/
-        testSortTime();
+        System.out.println("排序后数组为："+ Arrays.toString(arr));
+        //testSortTime();
     }
     public static void betterSort(int[] arr) {
         int temp;
@@ -29,7 +29,7 @@ public class MaoPaoSort {
                     arr[j] = temp;
                 }
             }
-            if (!flag){//如果没有发生交换，说明已经排序好了，直接跳出就行
+            if (!flag){//在一次排序中，如果没有发生交换，说明已经排序好了，直接跳出就行
                 break;
             }else {
                 flag = false;

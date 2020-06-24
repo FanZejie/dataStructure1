@@ -1,4 +1,6 @@
+import java.text.SimpleDateFormat;
 import java.util.Arrays;
+import java.util.Date;
 
 /**
  * 快速排序是对冒泡排序的一种改进，基本思想是：
@@ -12,6 +14,7 @@ public class QuickSort {
         System.out.println("排序前数组为："+ Arrays.toString(arr));
         quickSort(arr,0,arr.length-1);
         System.out.println("排序后数组为："+ Arrays.toString(arr));
+        //testSortTime();
 
     }
     public static void quickSort(int[] arr,int left,int right){
@@ -59,5 +62,20 @@ public class QuickSort {
             quickSort(arr,l,right);
             //System.out.println("向右递归 l:"+l+"right:"+right);
         }
+    }
+
+    public static void testSortTime(){
+        int bigArr[] = new int[8*10000];
+        for (int i = 0;i<bigArr.length;i++){
+            bigArr[i] = (int)(Math.random()*8000000);//生成一个[0,8000000)的数放入数组
+        }
+        Date before = new Date();
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String beforeStr = simpleDateFormat.format(before);
+        System.out.println("排序前时间为："+beforeStr);
+        quickSort(bigArr,0,bigArr.length-1);
+        Date after = new Date();
+        String afterStr = simpleDateFormat.format(after);
+        System.out.println("排序后时间为："+afterStr);
     }
 }

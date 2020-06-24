@@ -10,11 +10,11 @@ import java.util.Date;
  */
 public class ShellSort {
     public static void main(String[] args) {
-        //int arr[] = {8,9,1,7,2,3,5,4,6,0};
-        //System.out.println("排序前数组为："+ Arrays.toString(arr));
-        //testSort(arr);
+        int arr[] = {8,9,1,7,2,3,5,4,6,0};
+        System.out.println("排序前数组为："+ Arrays.toString(arr));
+        testSort(arr);
         //shellSort2(arr);
-        testSortTime();
+        //testSortTime();
     }
     public static void testSort(int[] arr){
         int temp = 0;

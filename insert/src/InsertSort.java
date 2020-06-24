@@ -10,11 +10,11 @@ import java.util.Date;
  */
 public class InsertSort {
     public static void main(String[] args) {
-        //int arr[] = {3,9,-1,10,-3};
-        //System.out.println("排序前数组为："+ Arrays.toString(arr));
+        int arr[] = {3,9,-1,10,-3};
+        System.out.println("排序前数组为："+ Arrays.toString(arr));
         //testSort(arr);
-        //insertSort(arr);
-        testSortTime();
+        insertSort(arr);
+        //testSortTime();
     }
 
     public static void insertSort(int[] arr) {
@@ -30,7 +30,7 @@ public class InsertSort {
             if (insertIndex+1 != i){
                 arr[insertIndex+1] = insertVal;
             }
-            //System.out.println("第"+i+"轮排序结果为："+ Arrays.toString(arr));
+            System.out.println("第"+i+"轮排序结果为："+ Arrays.toString(arr));
         }
     }
 
